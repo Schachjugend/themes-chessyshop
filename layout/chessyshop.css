@@ -1,0 +1,38 @@
+/**
+ * chessy.shop theme
+ * CSS
+ *
+ * Part of »Zugzwang Project«
+ * https://www.zugzwang.org/themes/chessyshop
+ *
+ * @author Gustaf Mossakowski <gustaf@koenige.org>
+ * @copyright Copyright © 2022 Gustaf Mossakowski
+ * @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
+ */
+
+
+%%% include chess16/layout/chess16.css %%%
+
+h1, h2, h3
+			{ color: #F90; }
+
+/* top of page */
+.banner		{ background: #F90 url(/_layout/chessyshop/bg-shop.png);
+			background-position: 50% 50%; background-repeat: no-repeat;
+			background-size: auto 100%; }
+
+
+/* foot of page */
+#foot nav ul
+			{ clear: left; margin: 0 auto 1em; padding: 0; list-style: none; }
+#foot nav li
+			{ margin: 0; padding: 0; display: inline-block; }
+#foot nav li:before
+			{ content: " \00a0·\00a0\00a0"; }
+#foot nav li:first-child:before
+			{ content: ""; }
+
+/* custom pages */
+
+.login fieldset, .login legend
+			{ background: #FC0; }
