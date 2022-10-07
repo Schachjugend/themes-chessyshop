@@ -8,10 +8,6 @@
 # @copyright Copyright © 2022 Gustaf Mossakowski
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
-%%% block definition css %%%
-	<link rel="stylesheet" type="text/css" href="/_layout/chessyshop/chessyshop.css%%% page nocache %%%">
-%%% block definition end %%%
-
 %%% block definition logo %%%
 <p class="logo-wide"><a href="/" target="_top"><img src="/_layout/%%% setting active_theme %%%/logo-60.png" alt="Chessys Schach-Shop" srcset="/_layout/%%% setting active_theme %%%/logo-60.png 1x, /_layout/%%% setting active_theme %%%/logo-120.png 2x"></a></p>
 %%% block definition end %%%
