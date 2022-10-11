@@ -70,7 +70,9 @@ h1, h2, h3
 
 /* product */
 
-.article tr:target td.product	{ background: #E9B639; }
+.article tr:target td.product	{ background: #F90; }
+.article tr:target td.product h2
+					{ color: white; }
 
 .article			{ border-collapse: collapse; }
 .article tr:first-child td
