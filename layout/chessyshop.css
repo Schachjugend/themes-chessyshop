@@ -121,31 +121,31 @@ h1, h2, h3
 
 /* shopping cart */
 
-.warenkorb		{ border-collapse: collapse; margin: 1em 0 .5em; }
-.warenkorb th, .warenkorb td
+.shoppingcart		{ border-collapse: collapse; margin: 1em 0 .5em; }
+.shoppingcart th, .shoppingcart td
 				{ padding: .25em .75em .25em 0; vertical-align: top; }
-.warenkorb tr td:first-child
+.shoppingcart tr td:first-child
 				{ padding-left: .25em; }
-.warenkorb tr td:last-child
+.shoppingcart tr td:last-child
 				{ padding-right: 0; }
-.warenkorb th	{ border-bottom: 1px solid #708090; text-align: left; }
-.warenkorb td.number
+.shoppingcart th	{ border-bottom: 1px solid #708090; text-align: left; }
+.shoppingcart td.number
 				{ text-align: right; }
-.warenkorb tr.uneven td
+.shoppingcart tr.uneven td
 				{ background-color: #EDCD81; }
-.warenkorb tfoot td
+.shoppingcart tfoot td
 				{ border: #708090; border-style: solid none double;
 				border-width: 1px 0 3px; }
 @media screen and (max-width: 480px) {
-	.warenkorb td.artikel, .warenkorb td.preis
+	.shoppingcart td.artikel, .shoppingcart td.preis
 					{ display: block; }
-	.warenkorb td.bestellnr
+	.shoppingcart td.bestellnr
 					{ float: left; }
-	.warenkorb th.bestellnr, .warenkorb tfoot td.bestellnr,
-	.warenkorb th.preis, .warenkorb tfoot td.preis
+	.shoppingcart th.bestellnr, .shoppingcart tfoot td.bestellnr,
+	.shoppingcart th.preis, .shoppingcart tfoot td.preis
 					{ display: none; }
 }
 @media print {
-	.warenkorb tr.uneven td
+	.shoppingcart tr.uneven td
 				{ background-color: #DDD; }
 }
