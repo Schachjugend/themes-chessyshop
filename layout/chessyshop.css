@@ -16,6 +16,7 @@
 h1, h2, h3
 			{ color: #F90; }
 
+
 /* top of page */
 .banner		{ background: #F90 url(/_layout/chessyshop/bg-shop.png);
 			background-position: 50% 50%; background-repeat: no-repeat;
@@ -51,6 +52,10 @@ h1, h2, h3
 .products .level5	{ margin: 0; margin: 0 0 0 8em; padding: 0 0 0 .25em; }
 .highlight
 			{ background: #FC0; }
+@media screen and (max-width: 640px) {
+	.products ul		{ padding: 0 .75em; }
+	.products ul ul		{ padding: 0; }
+}
 
 
 /* products, product categories: columns */
@@ -61,6 +66,8 @@ h1, h2, h3
 @media screen and (max-width: 640px) {
 	.col_a, .col_o		{ float: none; width: auto; padding-right: 0; }
 	.col_o		{ margin-top: 2em; }
+	.col_a form	{ padding: 0 .75em; }
+	.col_o .searchform	{ padding: 0 .75em; }
 }
 @media print {
 	.col_o		{ display: none; }
@@ -115,7 +122,7 @@ h1, h2, h3
 	.product td.sum		{ display: inline; width: auto; text-align: left; }
 	.product td.order
 						{ text-align: right; width: auto; clear: both; }
-
+	.product h2			{ padding: 0; }
 }
 
 
@@ -137,6 +144,8 @@ h1, h2, h3
 				{ border: #708090; border-style: solid none double;
 				border-width: 1px 0 3px; }
 @media screen and (max-width: 480px) {
+	table.shoppingcart
+					{ width: 100%; }
 	.shoppingcart td.product_name, .shoppingcart td.price
 					{ display: block; }
 	.shoppingcart td.order_no
