@@ -158,3 +158,11 @@ h1, h2, h3
 	.shoppingcart tr.uneven td
 				{ background-color: #DDD; }
 }
+
+
+/* short page */
+
+#text-short h1		{ margin-top: 0; }
+@media screen and (min-width: 641px) {
+	#text-short		{ padding: 1em; }
+}
