@@ -166,3 +166,9 @@ h1, h2, h3
 @media screen and (min-width: 641px) {
 	#text-short		{ padding: 1em; }
 }
+
+
+/* featured */
+
+.featured img		{ width: 100%; }
+
