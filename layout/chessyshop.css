@@ -15,6 +15,7 @@
 
 h1, h2, h3
 			{ color: #F90; }
+abbr		{ text-decoration: none; }
 
 
 /* top of page */
