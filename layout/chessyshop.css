@@ -42,15 +42,17 @@ abbr		{ text-decoration: none; }
 
 /* product categories */
 
-.products ul		{ margin: 1em 0; padding: 0; }
+.products ul		{ margin: 1em 0; padding: 0; list-style: none; font-size: .8rem; }
+.products ul a, .products ul strong
+					{ font-size: 1rem; }
 .products ul ul		{ margin: 0; padding: 0; }
 .products .level1	{ list-style: none; margin: 1em 0 0; padding: 0;
-					font-weight: bold; }
-.products .level2	{ margin: 0; margin: 0 0 0 2em; padding: 0 0 0 .25em;
-					font-weight: normal; list-style: disc; }
-.products .level3	{ margin: 0; margin: 0 0 0 4em; padding: 0 0 0 .25em; }
-.products .level4	{ margin: 0; margin: 0 0 0 6em; padding: 0 0 0 .25em; }
-.products .level5	{ margin: 0; margin: 0 0 0 8em; padding: 0 0 0 .25em; }
+					font-weight: bold; font-size: 1rem; }
+.products .level2	{ margin: 0; margin: 0 0 0 0em; padding: 0;
+					font-weight: normal; }
+.products .level3	{ margin: 0; margin: 0 0 0 1em; padding: 0; }
+.products .level4	{ margin: 0; margin: 0 0 0 2em; padding: 0; }
+.products .level5	{ margin: 0; margin: 0 0 0 3em; padding: 0; }
 .highlight
 			{ background: #FC0; }
 @media screen and (max-width: 640px) {
@@ -142,7 +144,7 @@ abbr		{ text-decoration: none; }
 .shoppingcart td.number
 				{ text-align: right; }
 .shoppingcart tr.uneven td
-				{ background-color: #EDCD81; }
+				{ background-color: #ffce85; }
 .shoppingcart tfoot td
 				{ border: #708090; border-style: solid none double;
 				border-width: 1px 0 3px; }
