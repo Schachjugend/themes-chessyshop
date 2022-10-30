@@ -81,6 +81,8 @@ abbr		{ text-decoration: none; }
 .product tr:target td.product_name	{ background: #F90; }
 .product tr:target td.product_name h2
 					{ color: white; }
+.product tr:target a:visited
+					{ color: #DDD; }
 
 .product			{ border-collapse: collapse; }
 .product tr:first-child td
