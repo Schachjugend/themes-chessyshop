@@ -177,3 +177,15 @@ abbr		{ text-decoration: none; }
 
 .featured img		{ width: 100%; }
 
+/* zzform */
+
+#zzform #record table
+			{ background-color: #ffdca8; border-radius: 10px; }
+#zzform #record .subtable th, #zzform #record .subtable td
+			{ background-color: #ffdca8; }
+#zzform #record tfoot th, #zzform #record tfoot td
+			{ background-color: #E68A00; }
+#zzform #record tfoot th
+			{ border-radius: 0 0 0 10px; }
+#zzform #record tfoot td:last-child
+			{ border-radius: 0 0 10px 0; }
