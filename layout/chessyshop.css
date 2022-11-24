@@ -34,6 +34,20 @@ abbr		{ text-decoration: none; }
 #foot nav li:first-child:before
 			{ content: ""; }
 
+/* logo */
+
+.banner		{ overflow: hidden; }
+.topic		{ max-width: 60em; margin: 0 auto; color: #06C; position: relative; }
+.topic .box	{ float: right;  padding: 0 .75em; margin-right: -2.3em; }
+.topic img	{ margin: 15px; max-height: 130px; background: rgb(255, 255, 255, .9); padding: 0 .5em; }
+@media screen and (max-width: 61em) {
+	.topic .box { margin-right: -26px; }
+}
+@media screen and (max-width: 480px) {
+	.topic .box { margin-right: -12px; }
+	.topic img { max-height: 80px; margin: 0px; }
+}
+
 /* custom pages */
 
 .login fieldset, .login legend

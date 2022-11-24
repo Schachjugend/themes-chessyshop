@@ -1,0 +1,8 @@
+# Zugzwang Project
+# chessy.shop
+# Copyright (c) 2022 Gustaf Mossakowski <gustaf@koenige.org>
+# HTML-Ausgabe: Banner DEM
+#
+<div class="topic"><div class="box">
+<a href="/"><img src="%%% setting layout_path %%%/chessyshop/chessyshop-logo.png" srcset="%%% setting layout_path %%%/chessyshop/chessyshop-logo.png 1x, %%% setting layout_path %%%/chessyshop/chessyshop-logo-x2.png 2x"></a>
+</div></div>
