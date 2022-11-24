@@ -65,7 +65,9 @@ abbr		{ text-decoration: none; }
 
 .col_a		{ float: left; width: 65%; padding-right: 5%; }
 .col_o		{ float: left; width: 30%; }
-.col_o h2	{ margin: 0 0 .5em; }
+.col_o h2, .col_o h2:first-child
+			{ margin: 0 0 .5em; }
+
 @media screen and (max-width: 640px) {
 	.col_a, .col_o		{ float: none; width: auto; padding-right: 0; }
 	.col_o		{ margin-top: 2em; }
@@ -86,7 +88,7 @@ abbr		{ text-decoration: none; }
 .product tr:target a:visited
 					{ color: #DDD; }
 
-.product			{ border-collapse: collapse; }
+.product			{ border-collapse: collapse; margin: 1em 0; }
 .product tr:first-child td
 					{ border-top: 1px dotted #708090; }
 .product td			{ vertical-align: top; padding: .75em 1em .5em 0;
