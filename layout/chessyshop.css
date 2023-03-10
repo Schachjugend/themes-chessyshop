@@ -6,7 +6,7 @@
  * https://www.zugzwang.org/themes/chessyshop
  *
  * @author Gustaf Mossakowski <gustaf@koenige.org>
- * @copyright Copyright © 2022 Gustaf Mossakowski
+ * @copyright Copyright © 2022-2023 Gustaf Mossakowski
  * @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
  */
 
@@ -205,3 +205,8 @@ abbr		{ text-decoration: none; }
 			{ border-radius: 0 0 0 10px; }
 #zzform #record tfoot td:last-child
 			{ border-radius: 0 0 10px 0; }
+
+/* searchform */
+
+.searchform label
+			{ display: none; }
